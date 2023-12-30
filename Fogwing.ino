@@ -16,15 +16,15 @@
 
 // // WiFi credentials
 // #define WIFI_SSID "motorola_edge_20_6963"
-// #define WIFI_PASS "soumilgupta"
+// #define WIFI_PASS ""
 
 // // MQTT broker
 // #define MQTT_BROKER "iothub.fogwing.net"
 
 // // Fogwing MQTT Access credentials
-// #define CLIENT_ID "1151-3972-2621-4042"
-// #define USER_NAME "557815c887b4c04a"
-// #define PASSWORD "Isbozwdf9&"
+// #define CLIENT_ID ""
+// #define USER_NAME ""
+// #define PASSWORD ""
 
 // // Fogwing MQTT Access publish and subscribe topics
 // #define PUB_EDGE "fwent/edge/557815c887b4c04a/inbound"
@@ -179,13 +179,13 @@
 #define MQTT_BROKER "iothub.fogwing.net"
 
 // Fogwing MQTT Access credentials
-#define CLIENT_ID "1151-3972-2621-4042"
-#define USER_NAME "557815c887b4c04a"
-#define PASSWORD "Isbozwdf9&"
+#define CLIENT_ID "2"
+#define USER_NAME "a"
+#define PASSWORD "&"
 
 // Fogwing MQTT Access publish and subscribe topics
-#define PUB_EDGE "fwent/edge/557815c887b4c04a/inbound"
-#define SUB_EDGE "fwent/edge/557815c887b4c04a/outbound"
+#define PUB_EDGE "/inbound"
+#define SUB_EDGE "/outbound"
 
 // 1 min time frequency to send the data to Fogwing IoT Hub
 #define TIME_FREQ ((1000 * 60) * 1)
